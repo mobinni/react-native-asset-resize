@@ -1,0 +1,11 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb-base-hf",
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "strict": 0,
+    "comma-dangle": ["error", "never"],
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "launcher": "./assets/launcher.png",
+  "splash": "./assets/splash.png",
+  "output": {
+    "ios": "",
+    "android": ""
+  }
+}
