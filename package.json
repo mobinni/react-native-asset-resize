@@ -1,11 +1,12 @@
 {
-  "name": "react-native-assets-cli",
+  "name": "react-native-assets",
   "version": "0.0.1",
   "description": "An asset resizer for react-native icons and splash screens",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
-    "test": "jest --verbose --config .jest/config.json"
+    "start": "babel-node ./src/index.js",
+    "test": "jest --verbose --config .jest/config.json",
+    "e2e": "babel-node index.js -l ./example/assets"
   },
   "engines": {
     "node": "^7.5.0"

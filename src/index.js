@@ -1,5 +1,5 @@
 import commander from 'commander';
-import { resizeLauncher } from './resize';
+import { init, resizeLauncher } from './resize';
 
 commander.version('0.0.1')
   .option('-l, --launcher <file>', 'Generate launcher icons for android and ios')
@@ -7,5 +7,6 @@ commander.version('0.0.1')
   .parse(process.argv);
 
 if (commander.launcher) {
+  init();
   resizeLauncher(commander.launcher);
 }
